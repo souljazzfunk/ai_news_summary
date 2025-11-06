@@ -22,9 +22,9 @@ Your tweets were getting collapsed with "Show more" because they exceeded X's **
 - ✅ Text normalization (NFC form as X requires)
 
 ### 2. Updated All Posting Scripts
-- ✅ `rss_summary.py` - Fixed character validation
-- ✅ `the_batch.py` - Added proper validation
-- ✅ `rundown.py` - Added proper validation
+- ✅ `rss_summary.py` - Fixed character validation with debug output
+- ✅ `the_batch.py` - **FULLY FIXED** with pre-post validation + emergency truncation
+- ✅ `rundown.py` - Added proper validation with debug output
 - ✅ `ai_news.py` - No posting (analysis only)
 - ✅ `smol_news_summary.py` - No posting (analysis only)
 - ✅ `KindleDeals.py` - READ-ONLY (not modified per request)
@@ -88,6 +88,8 @@ URLs found: 1
 3. **Invisible character cleanup** - Removes problematic Unicode that causes issues
 4. **Debug visibility** - See exactly why posts are too long
 5. **Proper Japanese support** - Accounts for CJK character weights
+6. **Emergency validation** - Final safety check before every post
+7. **Security improvement** - Removed hardcoded API keys
 
 ## Usage
 

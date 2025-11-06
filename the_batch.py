@@ -192,8 +192,11 @@ def main():
     # Load environment variables
     load_dotenv()
     
-    # Replace with your actual Gemini API key
-    GEMINI_API_KEY = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY") or "YOUR_API_KEY_HERE"
+    # Get Gemini API key from environment variables
+    GEMINI_API_KEY = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
+    if not GEMINI_API_KEY:
+        print("Error: GOOGLE_API_KEY or GEMINI_API_KEY not found in environment variables")
+        return
     GEMINI_MODEL = "gemini-2.5-flash-lite-preview-06-17"
     BATCH_URL = "https://www.deeplearning.ai/the-batch"
     BASE_URL = "https://www.deeplearning.ai"
@@ -264,6 +267,13 @@ def main():
             
             # Post in reversed order with 1 second pause between posts
             for i, post_text in enumerate(reversed(posts)):
+                # Final validation check before posting
+                final_validation = validate_post_text(post_text, debug=True)
+                if not final_validation['is_valid']:
+                    print(f"WARNING: Post {i+1} still exceeds limit after processing!")
+                    post_text = safe_truncate_post(post_text)
+                    print(f"Re-truncated to: {post_text}")
+
                 print(f"\nPosting to X ({i+1}/{len(posts)}): {post_text}")
                 try:
                     post_to_x(post_text)
