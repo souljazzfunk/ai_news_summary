@@ -123,7 +123,30 @@ Moshiの主な特徴と従来のVADとの違いは以下の通りです：
 
     try:
         response = model.generate_content(contents=prompt.format(content=content))
-        return response.text
+
+        # Check if response has valid parts before accessing .text
+        if response.candidates and response.candidates[0].content.parts:
+            return response.text
+        else:
+            # Check finish reason to provide specific error message
+            if response.candidates:
+                reason = response.candidates[0].finish_reason
+                if reason == 4:  # RECITATION - copyrighted material detected
+                    print("Error calling Gemini API: Response blocked due to copyrighted material detection")
+                    print("The newsletter content may contain copyrighted text that the model cannot reproduce.")
+                else:
+                    print(f"Error calling Gemini API: No content returned (finish_reason: {reason})")
+            else:
+                print("Error calling Gemini API: No candidates returned")
+            return None
+
+    except ValueError as e:
+        # Handle response.text accessor failures
+        if "response.text" in str(e) and "finish_reason" in str(e):
+            print(f"Error calling Gemini API: Response blocked (likely copyrighted material)")
+        else:
+            print(f"Error calling Gemini API: {e}")
+        return None
     except Exception as e:
         print(f"Error calling Gemini API: {e}")
         return None
@@ -133,9 +156,12 @@ def main():
     start_time = time.time()
     # Load environment variables
     load_dotenv()
-    
-    # Replace with your actual Gemini API key
-    GEMINI_API_KEY = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY") or "YOUR_API_KEY_HERE"
+
+    # Load Gemini API key from environment variables
+    GEMINI_API_KEY = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
+    if not GEMINI_API_KEY:
+        print("Error: GEMINI_API_KEY or GOOGLE_API_KEY not found in environment variables")
+        return
     GEMINI_MODEL = "gemini-2.5-flash-lite-preview-06-17"
     NEWS_URL = "https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml"
     

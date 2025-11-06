@@ -1,0 +1,38 @@
+# Environment variables (contains API keys and secrets)
+.env
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Log files
+*.log
+
+# Node modules (if any)
+node_modules/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files that might contain sensitive info
+last_date.txt
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

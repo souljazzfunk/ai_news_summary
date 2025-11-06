@@ -6,6 +6,10 @@ import os
 from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 
 def fetch_latest_article(url, last_date_file="last_date.txt"):
@@ -167,8 +171,11 @@ DeepSeek-R1が優れている理由は以下の通りです：
 
 def main():
     start_time = time.time()
-    # Replace with your actual Gemini API key
-    GEMINI_API_KEY = "YOUR_API_KEY_HERE"
+    # Load Gemini API key from environment variables
+    GEMINI_API_KEY = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
+    if not GEMINI_API_KEY:
+        print("Error: GEMINI_API_KEY or GOOGLE_API_KEY not found in environment variables")
+        return
     GEMINI_MODEL = "gemini-2.5-flash-preview-06-17"
     ARCHIVE_URL = "https://buttondown.com/ainews/archive/"
 
