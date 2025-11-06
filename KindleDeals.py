@@ -1,1 +1,0 @@
-../KindleDeals/KindleDeals.py
