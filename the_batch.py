@@ -197,7 +197,7 @@ def main():
     if not GEMINI_API_KEY:
         print("Error: GOOGLE_API_KEY or GEMINI_API_KEY not found in environment variables")
         return
-    GEMINI_MODEL = "gemini-2.5-flash-lite-preview-06-17"
+    GEMINI_MODEL = "gemini-3-flash-preview"
     BATCH_URL = "https://www.deeplearning.ai/the-batch"
     BASE_URL = "https://www.deeplearning.ai"
     

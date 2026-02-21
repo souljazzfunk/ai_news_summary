@@ -39,3 +39,5 @@ last_date.txt
 dist/
 build/
 *.egg-info/
+rss_summary.cron.log
+rundown.cron.log

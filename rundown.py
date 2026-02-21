@@ -162,7 +162,7 @@ def main():
     if not GEMINI_API_KEY:
         print("Error: GEMINI_API_KEY or GOOGLE_API_KEY not found in environment variables")
         return
-    GEMINI_MODEL = "gemini-2.5-flash-lite-preview-06-17"
+    GEMINI_MODEL = "gemini-3-flash-preview"
     NEWS_URL = "https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml"
     
     missing = _missing_x_creds()

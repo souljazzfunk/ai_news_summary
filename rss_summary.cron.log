@@ -3384,3 +3384,455 @@ https://www.dbta.com/Editorial/News-Flashes/Altair-RapidMiner-Expands-the-Agenti
 [2025-11-06 20:00:00] Starting rss_summary.py
 Feed: 0 entries found
 [2025-11-06 20:00:02] Finished with exit code 0
+[2025-11-07 20:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-07 20:00:02] Finished with exit code 0
+[2025-11-08 20:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-08 20:00:02] Finished with exit code 0
+[2025-11-09 20:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-09 20:00:02] Finished with exit code 0
+[2025-11-10 20:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-10 20:00:02] Finished with exit code 0
+[2025-11-11 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-11 19:00:02] Finished with exit code 0
+[2025-11-12 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-12 19:00:01] Finished with exit code 0
+[2025-11-13 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-13 19:00:03] Finished with exit code 0
+[2025-11-14 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-14 19:00:03] Finished with exit code 0
+[2025-11-15 19:04:36] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-15 19:04:38] Finished with exit code 0
+[2025-11-16 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-16 19:00:02] Finished with exit code 0
+[2025-11-17 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-17 19:00:02] Finished with exit code 0
+[2025-11-18 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-18 19:00:02] Finished with exit code 0
+[2025-11-19 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-19 19:00:02] Finished with exit code 0
+[2025-11-20 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-20 19:00:02] Finished with exit code 0
+[2025-11-21 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-21 19:00:02] Finished with exit code 0
+[2025-11-22 19:00:00] Starting rss_summary.py
+Feed: 1 entries found
+Fetching: Gathering advanced data, agent and ML tools under BigQuery A...
+Summarizing...
+Gemini API error: 404 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite-preview-06-17:generateContent?%24alt=json%3Benum-encoding%3Dint: models/gemini-2.5-flash-lite-preview-06-17 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Text: 
+https://cloud.google.com/blog/products/data-analy...
+Weighted length: 23/280
+Valid: True
+Character breakdown: {'weight_1': 0, 'weight_2': 0, 'urls': 23}
+URLs found: 1
+---
+Text: 
+https://cloud.google.com/blog/products/data-analy...
+Weighted length: 23/280
+Valid: True
+Character breakdown: {'weight_1': 0, 'weight_2': 0, 'urls': 23}
+URLs found: 1
+---
+Posting: 
+https://cloud.google.com/blog/products/data-analytics/gathering-advanced-data-agent-and-ml-tools-under-bigquery-ai/
+
+[2025-11-22 19:00:09] Finished with exit code 0
+[2025-11-23 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-23 19:00:02] Finished with exit code 0
+[2025-11-24 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-24 19:00:02] Finished with exit code 0
+[2025-11-25 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-25 19:00:02] Finished with exit code 0
+[2025-11-26 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-26 19:00:03] Finished with exit code 0
+[2025-11-27 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-27 19:00:03] Finished with exit code 0
+[2025-11-28 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-28 19:00:02] Finished with exit code 0
+[2025-11-30 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2025-11-30 19:00:03] Finished with exit code 0
+[2025-12-01 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-01 19:00:02] Finished with exit code 0
+[2025-12-02 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-02 19:00:02] Finished with exit code 0
+[2025-12-03 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-03 19:00:02] Finished with exit code 0
+[2025-12-04 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-04 19:00:02] Finished with exit code 0
+[2025-12-05 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-05 19:00:03] Finished with exit code 0
+[2025-12-06 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-06 19:00:02] Finished with exit code 0
+[2025-12-07 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-07 19:00:02] Finished with exit code 0
+[2025-12-08 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-08 19:00:02] Finished with exit code 0
+[2025-12-09 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-09 19:00:02] Finished with exit code 0
+[2025-12-10 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-10 19:00:02] Finished with exit code 0
+[2025-12-11 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-11 19:00:04] Finished with exit code 0
+[2025-12-12 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-12 19:00:02] Finished with exit code 0
+[2025-12-13 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-13 19:00:01] Finished with exit code 0
+[2025-12-14 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-14 19:00:02] Finished with exit code 0
+[2025-12-15 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-15 19:00:02] Finished with exit code 0
+[2025-12-16 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-16 19:00:02] Finished with exit code 0
+[2025-12-17 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-17 19:00:03] Finished with exit code 0
+[2025-12-18 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-18 19:00:02] Finished with exit code 0
+[2025-12-19 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-19 19:00:02] Finished with exit code 0
+[2025-12-20 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-20 19:00:03] Finished with exit code 0
+[2025-12-21 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-21 19:00:02] Finished with exit code 0
+[2025-12-23 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-23 19:00:02] Finished with exit code 0
+[2025-12-24 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-24 19:00:01] Finished with exit code 0
+[2025-12-25 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-25 19:00:02] Finished with exit code 0
+[2025-12-26 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-26 19:00:02] Finished with exit code 0
+[2025-12-27 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-27 19:00:01] Finished with exit code 0
+[2025-12-28 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-28 19:00:02] Finished with exit code 0
+[2025-12-29 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-29 19:00:02] Finished with exit code 0
+[2025-12-30 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-30 19:00:02] Finished with exit code 0
+[2025-12-31 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2025-12-31 19:00:02] Finished with exit code 0
+[2026-01-01 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-01 19:00:02] Finished with exit code 0
+[2026-01-02 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-02 19:00:01] Finished with exit code 0
+[2026-01-03 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-03 19:00:02] Finished with exit code 0
+[2026-01-04 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-04 19:00:02] Finished with exit code 0
+[2026-01-05 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-05 19:00:02] Finished with exit code 0
+[2026-01-06 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-06 19:00:02] Finished with exit code 0
+[2026-01-07 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-07 19:00:02] Finished with exit code 0
+[2026-01-08 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-08 19:00:02] Finished with exit code 0
+[2026-01-09 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-09 19:00:02] Finished with exit code 0
+[2026-01-10 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-10 19:00:01] Finished with exit code 0
+[2026-01-11 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-11 19:00:02] Finished with exit code 0
+[2026-01-12 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-12 19:00:02] Finished with exit code 0
+[2026-01-13 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-13 19:00:02] Finished with exit code 0
+[2026-01-14 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-14 19:00:02] Finished with exit code 0
+[2026-01-15 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-15 19:00:02] Finished with exit code 0
+[2026-01-16 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-16 19:00:02] Finished with exit code 0
+[2026-01-17 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-17 19:00:01] Finished with exit code 0
+[2026-01-18 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-18 19:00:02] Finished with exit code 0
+[2026-01-19 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-19 19:00:02] Finished with exit code 0
+[2026-01-20 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-20 19:00:02] Finished with exit code 0
+[2026-01-21 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-21 19:00:01] Finished with exit code 0
+[2026-01-22 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-22 19:00:02] Finished with exit code 0
+[2026-01-23 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-23 19:00:02] Finished with exit code 0
+[2026-01-25 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-25 19:00:03] Finished with exit code 0
+[2026-01-26 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-26 19:00:02] Finished with exit code 0
+[2026-01-27 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-27 19:00:02] Finished with exit code 0
+[2026-01-28 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-28 19:00:02] Finished with exit code 0
+[2026-01-29 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-29 19:00:02] Finished with exit code 0
+[2026-01-30 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-30 19:00:02] Finished with exit code 0
+[2026-01-31 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-01-31 19:00:01] Finished with exit code 0
+[2026-02-01 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-01 19:00:02] Finished with exit code 0
+[2026-02-02 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-02 19:00:02] Finished with exit code 0
+[2026-02-03 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-03 19:00:02] Finished with exit code 0
+[2026-02-04 19:00:00] Starting rss_summary.py
+Feed: 1 entries found
+Fetching: Democratizing business intelligence: BGL's journey with Clau...
+Summarizing...
+Gemini API error: 404 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite-preview-06-17:generateContent?%24alt=json%3Benum-encoding%3Dint: models/gemini-2.5-flash-lite-preview-06-17 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Text: 
+https://aws.amazon.com/blogs/machine-learning/dem...
+Weighted length: 23/280
+Valid: True
+Character breakdown: {'weight_1': 0, 'weight_2': 0, 'urls': 23}
+URLs found: 1
+---
+Text: 
+https://aws.amazon.com/blogs/machine-learning/dem...
+Weighted length: 23/280
+Valid: True
+Character breakdown: {'weight_1': 0, 'weight_2': 0, 'urls': 23}
+URLs found: 1
+---
+Posting: 
+https://aws.amazon.com/blogs/machine-learning/democratizing-business-intelligence-bgls-journey-with-claude-agent-sdk-and-amazon-bedrock-agentcore/
+
+[2026-02-04 19:00:05] Finished with exit code 0
+[2026-02-05 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-05 19:00:02] Finished with exit code 0
+[2026-02-06 19:00:00] Starting rss_summary.py
+Feed: 1 entries found
+Fetching: Teradata Brings Enterprise-Grade AI Agents to Google Cloud M...
+Summarizing...
+Gemini API error: 404 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite-preview-06-17:generateContent?%24alt=json%3Benum-encoding%3Dint: models/gemini-2.5-flash-lite-preview-06-17 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Text: 
+https://www.hpcwire.com/bigdatawire/this-just-in/...
+Weighted length: 23/280
+Valid: True
+Character breakdown: {'weight_1': 0, 'weight_2': 0, 'urls': 23}
+URLs found: 1
+---
+Text: 
+https://www.hpcwire.com/bigdatawire/this-just-in/...
+Weighted length: 23/280
+Valid: True
+Character breakdown: {'weight_1': 0, 'weight_2': 0, 'urls': 23}
+URLs found: 1
+---
+Posting: 
+https://www.hpcwire.com/bigdatawire/this-just-in/teradata-brings-enterprise-grade-ai-agents-to-google-cloud-marketplace/
+
+[2026-02-06 19:00:03] Finished with exit code 0
+[2026-02-07 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-07 19:00:03] Finished with exit code 0
+[2026-02-08 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-08 19:00:02] Finished with exit code 0
+[2026-02-09 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-09 19:00:02] Finished with exit code 0
+[2026-02-10 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-10 19:00:03] Finished with exit code 0
+[2026-02-11 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-11 19:00:03] Finished with exit code 0
+[2026-02-12 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-12 19:00:03] Finished with exit code 0
+[2026-02-13 19:00:01] Starting rss_summary.py
+Feed: 1 entries found
+Fetching: My Honest And Candid Review of Abacus AI Deep Agent - KDnugg...
+Summarizing...
+Gemini API error: 404 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite-preview-06-17:generateContent?%24alt=json%3Benum-encoding%3Dint: models/gemini-2.5-flash-lite-preview-06-17 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Text: 
+https://www.kdnuggets.com/2025/02/abacus/my-hones...
+Weighted length: 23/280
+Valid: True
+Character breakdown: {'weight_1': 0, 'weight_2': 0, 'urls': 23}
+URLs found: 1
+---
+Text: 
+https://www.kdnuggets.com/2025/02/abacus/my-hones...
+Weighted length: 23/280
+Valid: True
+Character breakdown: {'weight_1': 0, 'weight_2': 0, 'urls': 23}
+URLs found: 1
+---
+Posting: 
+https://www.kdnuggets.com/2025/02/abacus/my-honest-and-candid-review-of-abacus-ai-deep-agent
+
+[2026-02-13 19:00:08] Finished with exit code 0
+[2026-02-14 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-14 19:00:03] Finished with exit code 0
+[2026-02-15 19:00:00] Starting rss_summary.py
+Feed: 1 entries found
+Fetching: 12 Python Libraries You Need to Try in 2026 - KDnuggets...
+Summarizing...
+Gemini API error: 404 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite-preview-06-17:generateContent?%24alt=json%3Benum-encoding%3Dint: models/gemini-2.5-flash-lite-preview-06-17 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Text: 
+https://www.kdnuggets.com/12-python-libraries-you...
+Weighted length: 23/280
+Valid: True
+Character breakdown: {'weight_1': 0, 'weight_2': 0, 'urls': 23}
+URLs found: 1
+---
+Text: 
+https://www.kdnuggets.com/12-python-libraries-you...
+Weighted length: 23/280
+Valid: True
+Character breakdown: {'weight_1': 0, 'weight_2': 0, 'urls': 23}
+URLs found: 1
+---
+Posting: 
+https://www.kdnuggets.com/12-python-libraries-you-need-to-try-in-2026
+
+[2026-02-15 19:00:12] Finished with exit code 0
+[2026-02-16 19:00:01] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-16 19:00:03] Finished with exit code 0
+[2026-02-17 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-17 19:00:01] Finished with exit code 0
+[2026-02-18 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-18 19:00:04] Finished with exit code 0
+[2026-02-19 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-19 19:00:02] Finished with exit code 0
+[2026-02-20 19:00:00] Starting rss_summary.py
+Feed: 2 entries found
+Fetching: 5 Lightweight and Secure OpenClaw Alternatives to Try Right ...
+Summarizing...
+Gemini API error: 404 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite-preview-06-17:generateContent?%24alt=json%3Benum-encoding%3Dint: models/gemini-2.5-flash-lite-preview-06-17 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Text: 
+https://www.kdnuggets.com/5-lightweight-and-secur...
+Weighted length: 23/280
+Valid: True
+Character breakdown: {'weight_1': 0, 'weight_2': 0, 'urls': 23}
+URLs found: 1
+---
+Text: 
+https://www.kdnuggets.com/5-lightweight-and-secur...
+Weighted length: 23/280
+Valid: True
+Character breakdown: {'weight_1': 0, 'weight_2': 0, 'urls': 23}
+URLs found: 1
+---
+Posting: 
+https://www.kdnuggets.com/5-lightweight-and-secure-openclaw-alternatives-to-try-right-now
+
+Fetching: FastMCP: The Pythonic Way to Build MCP Servers and Clients -...
+Summarizing...
+Gemini API error: 404 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite-preview-06-17:generateContent?%24alt=json%3Benum-encoding%3Dint: models/gemini-2.5-flash-lite-preview-06-17 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Text: 
+https://www.kdnuggets.com/fastmcp-the-pythonic-wa...
+Weighted length: 23/280
+Valid: True
+Character breakdown: {'weight_1': 0, 'weight_2': 0, 'urls': 23}
+URLs found: 1
+---
+Text: 
+https://www.kdnuggets.com/fastmcp-the-pythonic-wa...
+Weighted length: 23/280
+Valid: True
+Character breakdown: {'weight_1': 0, 'weight_2': 0, 'urls': 23}
+URLs found: 1
+---
+Posting: 
+https://www.kdnuggets.com/fastmcp-the-pythonic-way-to-build-mcp-servers-and-clients
+
+[2026-02-20 19:00:12] Finished with exit code 0
+[2026-02-21 19:00:00] Starting rss_summary.py
+Feed: 0 entries found
+[2026-02-21 19:00:02] Finished with exit code 0
